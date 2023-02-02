@@ -1,0 +1,22 @@
+#game-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  text-align: center;
+}
+
+#wrapper {
+    grid-column: 1 / 3;
+    text-align: center;
+}
+
+.picture {
+    width: 100px;
+    height: 100px;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+}
+
